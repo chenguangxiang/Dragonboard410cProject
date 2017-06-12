@@ -17,7 +17,7 @@ Aim of this demo is to introduce developers to the concept of image recognition 
 - Install the Linux operating system on DragonBoard 410c
 - Install the opencv-python library by apt-get install opencv-python command
 - Copy codes to the user directory
-- Run python test3.py
+- Run python shouxingShibie.py
 
 **Usage Instructions**
 
