@@ -1,0 +1,10 @@
+&soc {
+	irremote {
+		compatible = "etek,ir";
+		status = "ok";
+		etek,sda-gpio = <&msm_gpio 36 0>;
+		etek,clk-gpio = <&msm_gpio 13 0>;
+		etek,busy-gpio = <&msm_gpio 24 0>;
+	};
+	
+};
