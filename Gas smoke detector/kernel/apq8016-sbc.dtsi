@@ -1,0 +1,21 @@
+&soc {
+	rgb_red {
+			compatible = "thundersoft,red";
+			thunder,pin = <&msm_gpio 115 0>;
+		};
+		
+	hum_tem_sensor {
+	          compatible = "thundersoft,dht11";
+			  interrupt-parent = <&msm_gpio>;
+			  interrupts = <0 34 0>;
+	          thunder,gpio_data = <&msm_gpio 34 0>;
+	             };
+	
+	mq-2 {
+			compatible = "thundersoft,mq";
+			interrupt-parent = <&msm_gpio>;
+			interrupts = <0 13 0>;
+			thunder,dottl = <&msm_gpio 13 0>;	
+	     };
+	     
+};
