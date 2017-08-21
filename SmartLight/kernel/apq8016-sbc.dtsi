@@ -1,0 +1,10 @@
+&soc {
+i2c@78ba000 {
+		aw2013@45 {
+			compatible = "aw,aw2013";
+			#address-cells = <1>;
+			#size-cells = <0>;
+			reg = <0x45>;
+		};
+	};
+};
