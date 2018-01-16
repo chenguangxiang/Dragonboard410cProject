@@ -1,0 +1,16 @@
+car {
+	compatible = "thund,em";
+	thunder,gpio_in1 = <&msm_gpio 36 0>;
+	thunder,gpio_in2 = <&msm_gpio 69 0>;
+	thunder,gpio_in3 = <&msm_gpio 115 0>;
+	thunder,gpio_in4 = <&msm_gpio 24 0>;
+};
+
+sonar {
+	compatible = "thund,sonar";
+	interrupt-parent = <&msm_gpio>;
+	interrupts = <0 13 0>;
+	thunder,poll_time = <50>;
+	thunder,gpio_cmd = <&msm_gpio 12 0>;
+	thunder,gpio_irq = <&msm_gpio 13 0>;	
+};
