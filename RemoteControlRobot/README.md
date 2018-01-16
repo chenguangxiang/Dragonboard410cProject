@@ -1,0 +1,1 @@
+Remote control robot developed based on the Dragonboard 410c, controlled by the mobile app, enables remote movement and real-time access to the monitoring screen, which can be used for patrolling and home guarding.
