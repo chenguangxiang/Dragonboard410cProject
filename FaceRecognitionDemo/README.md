@@ -1,0 +1,1 @@
+Based on the Dragonboard 410c development of face recognition, in advance through the cloud storage to save a specific person's face picture, and then identify, when found a specific person after the corresponding prompt.
