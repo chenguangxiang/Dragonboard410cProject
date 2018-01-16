@@ -1,0 +1,1 @@
+Based on Drangonboard 410c for the development of intelligent car, the car can walk and automatic bypass obstruction, when the ultrasonic module detects the obstacles will turn a certain angle around the obstacles.
