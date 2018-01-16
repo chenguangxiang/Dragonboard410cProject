@@ -1,0 +1,7 @@
+sclamp {                                                                                                                                                                                              
+        compatible = "thundersoft,sound";
+        interrupt-parent = <&msm_gpio>;
+        interrupts = <13>;
+        thundersoft,lamp_gpio = <&msm_gpio 13 0>;
+        thundersoft,led_gpio = <&msm_gpio 69 0>;
+    };
