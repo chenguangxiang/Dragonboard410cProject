@@ -1,0 +1,7 @@
+i2c@78b6000 { /* BLSP1 QUP2 */
+
+	pca9685@40 {
+		compatible = "nxp,pca9685-pwm";
+		reg = <0x40>;					
+	};
+};
