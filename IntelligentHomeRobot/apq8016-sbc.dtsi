@@ -1,0 +1,20 @@
+sonar-4 {
+	compatible = "thund,sonar-4";
+	interrupt-parent = <&msm_gpio>;
+	interrupts = <0 13 0>, <0 36 0>, <0 69 0>, <0 115 0>;
+	thunder,poll_time = <50>;
+	thunder,gpio_irq1 = <&msm_gpio 13 0>;
+	thunder,gpio_cmd1 = <&msm_gpio 12 0>;
+	thunder,gpio_irq2 = <&msm_gpio 36 0>;
+	thunder,gpio_cmd2 = <&msm_gpio 25 0>;
+	thunder,gpio_irq3 = <&msm_gpio 69 0>;
+	thunder,gpio_cmd3 = <&msm_gpio 24 0>;
+	thunder,gpio_irq4 = <&msm_gpio 115 0>;
+	thunder,gpio_cmd4 = <&msm_gpio 28 0>;
+};
+
+pca9685@40 {
+	compatible = "nxp,pca9685-pwm";
+	reg = <0x40>;					
+};
+
