@@ -1,0 +1,1 @@
+Based on the Dragonboard 410c development of the robot arm, mainly used to crawl objects, can be used for factory lines, restaurants, such as food window, handling some of the relatively light objects.
