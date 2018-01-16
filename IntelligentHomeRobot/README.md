@@ -1,0 +1,1 @@
+Based on the Dragonboard 410c for the development of intelligent home robots,it can walk and automatic bypass obstruction, it can also walking by the mobile phone app remote control at the same time. It can also crawl the object, and can also use the handle remote remote control pick up objects and handling with real-time video surveillance.
